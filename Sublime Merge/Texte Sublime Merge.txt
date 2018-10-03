@@ -1,0 +1,7 @@
+Sublime Merge : l'outil qu'il nous fallait pour utiliser git ?
+
+Finis les jours de la console noire pour utiliser git !
+
+Les créateurs de Sublime Text ont surpris les développeurs le  20 Septembre en annonçant le 
+lancement d'un client git. Au programme : une interface graphique très simple et intuitive, 
+de la gestion de conflit de merge, une navigation de l'historique des commit simplifiée, et plus encore.
