@@ -5,3 +5,29 @@ Finis les jours de la console noire pour utiliser git !
 Les créateurs de Sublime Text ont surpris les développeurs le  20 Septembre en annonçant le 
 lancement d'un client git. Au programme : une interface graphique très simple et intuitive, 
 de la gestion de conflit de merge, une navigation de l'historique des commit simplifiée, et plus encore.
+
+IMAGE
+
+A la manière de VIM, Sublime Text ouvre une fenêtre par repository.
+Pour accéder aux commandes, utilisez CTRL+P. Une liste de commandes que vous pouvez utiliser
+apparaîtra, ce qui facilite l'utilisation. Certaines commandes sont légèrement différentes mais on s'y
+retrouve. Exemple : "add ." devient "stage all". Sublime Text affiche d'ailleurs les commandes git utilisées
+sur la droite de la barre de commandes.
+
+IMAGE LISTE DEROULANTE
+
+Pour créer un .git, on peut soit faire un nouveau repository, soit l'ouvrir, si notre dossier est déjà 
+créé avec plusieurs fichiers dedans. Ensuite, la commande "Add Remote origin https://github.com/MonProfil/Monrepository.git"
+permet de créer le lien avec github (Un repository sur github est nécessaire).
+
+A partir de là, le confort sera au rendez-vous. Placez-vous sur le 1er item de la liste à gauche, "unstaged file",
+pour observer en temps réel les changements sur les fichiers que vous êtes en train d'utiliser, naviguez dans les commits
+pour étudier en vert, les choses ajoutées et en rouge, supprimées, revenez à un certain état en annulant certains commit,
+etc.
+
+Après 5 minutes d'utilisation, le choix est vite fait. Cependant, je lui reproche de ne pas afficher de message
+indiquant les actions effectuées. Par exemple, lorsque je fais "stage all" rien ne m'indique que ça a bien été effectué,
+si ce n'est que le statut de l'élément le plus récent dans la liste de gauche a changé. Pas d'amélioration par 
+rapport à VIM, sur ce point, qui n'affiche pas de message non plus si l'action a bien été effectée correctement.
+
+
